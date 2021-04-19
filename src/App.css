@@ -1,0 +1,40 @@
+html {
+  background-color: #f8f9fa;
+}
+
+.App {
+  
+  background-color: #f8f9fa;
+}
+
+.App main {
+  align-items: center;
+  padding: 1.25rem;
+	max-width: 1200px;
+  margin: auto;
+  background-color: white;
+}
+
+.App footer p {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+  padding: 1.25rem;
+	max-width: 1000px;
+  margin: auto;
+  
+}
+
+
+
+.App Form h1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+	font-size: 25px;
+}
+
+.App Form Button {
+  padding: .5rem 1rem;
+}
+

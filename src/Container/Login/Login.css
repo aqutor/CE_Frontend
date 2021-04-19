@@ -1,0 +1,33 @@
+.Login{
+    max-width: 1000px;
+}
+
+.LoginForm {
+    max-width: 360px;
+    padding: 15px;
+    margin: auto;
+  }
+
+.text-muted {
+    text-align: right;
+    font-size: 14px;
+}
+
+.InFormAlert {
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+.InFormAlert {
+    margin-top: 2rem;
+  }
+
+  .LoginContainer {
+    max-width: 1200px;
+  }
+
+  .ColMargin {
+      margin-left: 0.2em;
+      margin-right: 0.2em;
+  }
