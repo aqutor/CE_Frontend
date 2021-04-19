@@ -11,7 +11,6 @@ import { NavLink } from 'react-router-dom';
 import pic_12 from '../../assets/library/12.jpg'
 import pic_15 from '../../assets/library/15.jpg'
 import pic_20 from '../../assets/library/20.jpg'
-import Row from 'react-bootstrap/Row'
 
 class Login extends Component {
 
@@ -43,11 +42,6 @@ class Login extends Component {
         this.setState({
             ifClicked: true,
         });
-
-        const postData = {
-            sid: this.state.username,
-            pwd: this.state.password,
-        }
 
         this.setState({
             valAlert: {

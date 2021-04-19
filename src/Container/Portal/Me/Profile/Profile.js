@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { withRouter, Redirect } from 'react-router-dom';
-import { InputGroup,  FormControl, Image, Button, Modal } from 'react-bootstrap';
+import { withRouter } from 'react-router-dom';
+import { InputGroup,  FormControl, Image, Button } from 'react-bootstrap';
 import './Profile.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../../../../Component/Header/Header'
@@ -47,7 +47,7 @@ class Profile extends Component {
                             <InputGroup.Text id="basic-addon1">&nbsp;&nbsp;姓&nbsp;&nbsp;&nbsp;&nbsp;名&nbsp;&nbsp;</InputGroup.Text>
                         </InputGroup.Prepend>
                         <FormControl
-                        placeholder="润泽"
+                        placeholder="AT"
                         aria-label="Username"
                         aria-describedby="basic-addon1"
                         />

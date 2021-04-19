@@ -6,11 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 class Me extends Component {
     render(){
-    
-        const itemStyle = {
-            borderTopLeftRadius: '0',
-            borderTopRightRadius: '0'
-        }
+
 
         const borderStyle = {
             marginTop: "5em",
@@ -51,7 +47,7 @@ class Me extends Component {
                     <Image style = {photoStyle} src={user} roundedCircle width='100px' height='100px' />
                     </Col>
                     <Col xs={6} md={4}>
-                    <p style={nicknameStyle}>润泽</p>
+                    <p style={nicknameStyle}>AT</p>
                     <p style={usernameStyle}>用户名：test</p>
                     </Col>
                 </Row >

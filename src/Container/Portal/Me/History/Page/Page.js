@@ -1,7 +1,6 @@
-import { withRouter, Redirect } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import React, { Component } from 'react';
-import axios from 'axios';
-import { Image, Button, Table, Modal, Form, Spinner, Alert, Breadcrumb, Figure } from 'react-bootstrap';
+import { Button, Table, Modal, Spinner, Alert, Breadcrumb, Figure } from 'react-bootstrap';
 import pic_1 from '../../../../../assets/library/result.jpg'
 
 

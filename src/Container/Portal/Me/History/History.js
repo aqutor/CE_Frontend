@@ -1,6 +1,5 @@
-import { withRouter, Redirect } from 'react-router-dom';
+import { withRouter} from 'react-router-dom';
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import { Table, Button, Modal, Alert } from 'react-bootstrap';
 import Head from '../../../../Component/Header/Header'
 

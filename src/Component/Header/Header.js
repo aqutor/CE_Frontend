@@ -1,9 +1,4 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
-import home from '../../assets/img/home.svg';
-import picture from '../../assets/img/picture.svg';
-import user from '../../assets/img/user.svg';
-import { NavLink } from 'react-router-dom';
 
 const headerStyle = {
     backgroundColor: "white",

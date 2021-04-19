@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { withRouter, Redirect, NavLink } from 'react-router-dom';
-import { Badge,  Carousel, Image, Button, Modal } from 'react-bootstrap';
+import { withRouter, NavLink } from 'react-router-dom';
+import { Badge,  Carousel } from 'react-bootstrap';
 
 import Header from '../../../Component/Header/Header'
 
@@ -44,11 +44,6 @@ class Profile extends Component {
 
         const captionStyle = {
             color: "blue"
-        }
-
-        const specialStyle = {
-            position: "sticky",
-            top: '0'
         }
         
         return(

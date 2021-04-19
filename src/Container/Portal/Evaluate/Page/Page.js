@@ -1,7 +1,7 @@
-import { withRouter, Redirect } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import React, { Component } from 'react';
 import Head from '../../../../Component/Header/Header'
-import { Image, Button, Row, Col, Modal, Form, Spinner, Alert, Breadcrumb } from 'react-bootstrap';
+import { Image, Button, Col, Modal, Form, Spinner, Alert, Breadcrumb } from 'react-bootstrap';
 import pic_1 from '../../../../assets/library/sta.JPG'
 
 

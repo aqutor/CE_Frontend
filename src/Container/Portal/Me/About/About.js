@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter} from 'react-router-dom';
-import { ListGroup,  Col, Row, Image } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import logo from '../../../../assets/img/logo.svg';
 import Header from '../../../../Component/Header/Header'
 
@@ -59,8 +59,8 @@ class Me extends Component {
 
                 <p style={titleStyle}>书法临摹作品评分系统</p>
                 <p style={versionStyle}>Version 1.0.1</p>
-                <p style={linkStyle}><a href="https://policies.airscr.com/terms.html" target="_blank">TERMS OF USE</a></p>
-                <p style={linkStyle}><a href="https://policies.airscr.com/privacy.html" target="_blank">PRIVACY NOTICE</a></p>
+                <p style={linkStyle}><a href="https://policies.airscr.com/terms.html" target="_blank" rel="noopener noreferrer">TERMS OF USE</a></p>
+                <p style={linkStyle}><a href="https://policies.airscr.com/privacy.html" target="_blank" rel="noopener noreferrer">PRIVACY NOTICE</a></p>
                 <p />
                 <p style={copyrightStyle}>AT 版权所有</p>
                 <p style={copyrightStyle}>Copyright © 2018-2021 withz.at. All Rights Reserved.</p>
